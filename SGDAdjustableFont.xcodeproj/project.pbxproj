@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48109EAB1D0E8EF200A33504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48109EAA1D0E8EF200A33504 /* main.m */; };
+		48109EAE1D0E8EF200A33504 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48109EAD1D0E8EF200A33504 /* AppDelegate.m */; };
+		48109EB11D0E8EF200A33504 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48109EB01D0E8EF200A33504 /* ViewController.m */; };
+		48109EB41D0E8EF200A33504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48109EB21D0E8EF200A33504 /* Main.storyboard */; };
+		48109EB61D0E8EF200A33504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48109EB51D0E8EF200A33504 /* Assets.xcassets */; };
+		48109EB91D0E8EF200A33504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48109EB71D0E8EF200A33504 /* LaunchScreen.storyboard */; };
+		48109EC41D0E8EF200A33504 /* SGDAdjustableFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48109EC31D0E8EF200A33504 /* SGDAdjustableFontTests.m */; };
+		48109ECF1D0E8EF200A33504 /* SGDAdjustableFontUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48109ECE1D0E8EF200A33504 /* SGDAdjustableFontUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48109EC01D0E8EF200A33504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48109E9E1D0E8EF100A33504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48109EA51D0E8EF100A33504;
+			remoteInfo = SGDAdjustableFont;
+		};
+		48109ECB1D0E8EF200A33504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48109E9E1D0E8EF100A33504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48109EA51D0E8EF100A33504;
+			remoteInfo = SGDAdjustableFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48109EA61D0E8EF100A33504 /* SGDAdjustableFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGDAdjustableFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48109EAA1D0E8EF200A33504 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48109EAC1D0E8EF200A33504 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48109EAD1D0E8EF200A33504 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48109EAF1D0E8EF200A33504 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48109EB01D0E8EF200A33504 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48109EB31D0E8EF200A33504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48109EB51D0E8EF200A33504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48109EB81D0E8EF200A33504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48109EBA1D0E8EF200A33504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48109EBF1D0E8EF200A33504 /* SGDAdjustableFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGDAdjustableFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48109EC31D0E8EF200A33504 /* SGDAdjustableFontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGDAdjustableFontTests.m; sourceTree = "<group>"; };
+		48109EC51D0E8EF200A33504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48109ECA1D0E8EF200A33504 /* SGDAdjustableFontUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGDAdjustableFontUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48109ECE1D0E8EF200A33504 /* SGDAdjustableFontUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGDAdjustableFontUITests.m; sourceTree = "<group>"; };
+		48109ED01D0E8EF200A33504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48109EA31D0E8EF100A33504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48109EBC1D0E8EF200A33504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48109EC71D0E8EF200A33504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48109E9D1D0E8EF100A33504 = {
+			isa = PBXGroup;
+			children = (
+				48109EA81D0E8EF200A33504 /* SGDAdjustableFont */,
+				48109EC21D0E8EF200A33504 /* SGDAdjustableFontTests */,
+				48109ECD1D0E8EF200A33504 /* SGDAdjustableFontUITests */,
+				48109EA71D0E8EF100A33504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48109EA71D0E8EF100A33504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48109EA61D0E8EF100A33504 /* SGDAdjustableFont.app */,
+				48109EBF1D0E8EF200A33504 /* SGDAdjustableFontTests.xctest */,
+				48109ECA1D0E8EF200A33504 /* SGDAdjustableFontUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48109EA81D0E8EF200A33504 /* SGDAdjustableFont */ = {
+			isa = PBXGroup;
+			children = (
+				48109EAC1D0E8EF200A33504 /* AppDelegate.h */,
+				48109EAD1D0E8EF200A33504 /* AppDelegate.m */,
+				48109EAF1D0E8EF200A33504 /* ViewController.h */,
+				48109EB01D0E8EF200A33504 /* ViewController.m */,
+				48109EB21D0E8EF200A33504 /* Main.storyboard */,
+				48109EB51D0E8EF200A33504 /* Assets.xcassets */,
+				48109EB71D0E8EF200A33504 /* LaunchScreen.storyboard */,
+				48109EBA1D0E8EF200A33504 /* Info.plist */,
+				48109EA91D0E8EF200A33504 /* Supporting Files */,
+			);
+			path = SGDAdjustableFont;
+			sourceTree = "<group>";
+		};
+		48109EA91D0E8EF200A33504 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48109EAA1D0E8EF200A33504 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48109EC21D0E8EF200A33504 /* SGDAdjustableFontTests */ = {
+			isa = PBXGroup;
+			children = (
+				48109EC31D0E8EF200A33504 /* SGDAdjustableFontTests.m */,
+				48109EC51D0E8EF200A33504 /* Info.plist */,
+			);
+			path = SGDAdjustableFontTests;
+			sourceTree = "<group>";
+		};
+		48109ECD1D0E8EF200A33504 /* SGDAdjustableFontUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48109ECE1D0E8EF200A33504 /* SGDAdjustableFontUITests.m */,
+				48109ED01D0E8EF200A33504 /* Info.plist */,
+			);
+			path = SGDAdjustableFontUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48109EA51D0E8EF100A33504 /* SGDAdjustableFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48109ED31D0E8EF200A33504 /* Build configuration list for PBXNativeTarget "SGDAdjustableFont" */;
+			buildPhases = (
+				48109EA21D0E8EF100A33504 /* Sources */,
+				48109EA31D0E8EF100A33504 /* Frameworks */,
+				48109EA41D0E8EF100A33504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGDAdjustableFont;
+			productName = SGDAdjustableFont;
+			productReference = 48109EA61D0E8EF100A33504 /* SGDAdjustableFont.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48109EBE1D0E8EF200A33504 /* SGDAdjustableFontTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48109ED61D0E8EF200A33504 /* Build configuration list for PBXNativeTarget "SGDAdjustableFontTests" */;
+			buildPhases = (
+				48109EBB1D0E8EF200A33504 /* Sources */,
+				48109EBC1D0E8EF200A33504 /* Frameworks */,
+				48109EBD1D0E8EF200A33504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48109EC11D0E8EF200A33504 /* PBXTargetDependency */,
+			);
+			name = SGDAdjustableFontTests;
+			productName = SGDAdjustableFontTests;
+			productReference = 48109EBF1D0E8EF200A33504 /* SGDAdjustableFontTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48109EC91D0E8EF200A33504 /* SGDAdjustableFontUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48109ED91D0E8EF200A33504 /* Build configuration list for PBXNativeTarget "SGDAdjustableFontUITests" */;
+			buildPhases = (
+				48109EC61D0E8EF200A33504 /* Sources */,
+				48109EC71D0E8EF200A33504 /* Frameworks */,
+				48109EC81D0E8EF200A33504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48109ECC1D0E8EF200A33504 /* PBXTargetDependency */,
+			);
+			name = SGDAdjustableFontUITests;
+			productName = SGDAdjustableFontUITests;
+			productReference = 48109ECA1D0E8EF200A33504 /* SGDAdjustableFontUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48109E9E1D0E8EF100A33504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Shubham Daramwar";
+				TargetAttributes = {
+					48109EA51D0E8EF100A33504 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					48109EBE1D0E8EF200A33504 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 48109EA51D0E8EF100A33504;
+					};
+					48109EC91D0E8EF200A33504 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 48109EA51D0E8EF100A33504;
+					};
+				};
+			};
+			buildConfigurationList = 48109EA11D0E8EF100A33504 /* Build configuration list for PBXProject "SGDAdjustableFont" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48109E9D1D0E8EF100A33504;
+			productRefGroup = 48109EA71D0E8EF100A33504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48109EA51D0E8EF100A33504 /* SGDAdjustableFont */,
+				48109EBE1D0E8EF200A33504 /* SGDAdjustableFontTests */,
+				48109EC91D0E8EF200A33504 /* SGDAdjustableFontUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48109EA41D0E8EF100A33504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48109EB91D0E8EF200A33504 /* LaunchScreen.storyboard in Resources */,
+				48109EB61D0E8EF200A33504 /* Assets.xcassets in Resources */,
+				48109EB41D0E8EF200A33504 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48109EBD1D0E8EF200A33504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48109EC81D0E8EF200A33504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48109EA21D0E8EF100A33504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48109EB11D0E8EF200A33504 /* ViewController.m in Sources */,
+				48109EAE1D0E8EF200A33504 /* AppDelegate.m in Sources */,
+				48109EAB1D0E8EF200A33504 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48109EBB1D0E8EF200A33504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48109EC41D0E8EF200A33504 /* SGDAdjustableFontTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48109EC61D0E8EF200A33504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48109ECF1D0E8EF200A33504 /* SGDAdjustableFontUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48109EC11D0E8EF200A33504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48109EA51D0E8EF100A33504 /* SGDAdjustableFont */;
+			targetProxy = 48109EC01D0E8EF200A33504 /* PBXContainerItemProxy */;
+		};
+		48109ECC1D0E8EF200A33504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48109EA51D0E8EF100A33504 /* SGDAdjustableFont */;
+			targetProxy = 48109ECB1D0E8EF200A33504 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48109EB21D0E8EF200A33504 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48109EB31D0E8EF200A33504 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48109EB71D0E8EF200A33504 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48109EB81D0E8EF200A33504 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48109ED11D0E8EF200A33504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48109ED21D0E8EF200A33504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48109ED41D0E8EF200A33504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SGDAdjustableFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShubhamDaramwar.SGDAdjustableFont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48109ED51D0E8EF200A33504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SGDAdjustableFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShubhamDaramwar.SGDAdjustableFont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		48109ED71D0E8EF200A33504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SGDAdjustableFontTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShubhamDaramwar.SGDAdjustableFontTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGDAdjustableFont.app/SGDAdjustableFont";
+			};
+			name = Debug;
+		};
+		48109ED81D0E8EF200A33504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SGDAdjustableFontTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShubhamDaramwar.SGDAdjustableFontTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGDAdjustableFont.app/SGDAdjustableFont";
+			};
+			name = Release;
+		};
+		48109EDA1D0E8EF200A33504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SGDAdjustableFontUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShubhamDaramwar.SGDAdjustableFontUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SGDAdjustableFont;
+			};
+			name = Debug;
+		};
+		48109EDB1D0E8EF200A33504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SGDAdjustableFontUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShubhamDaramwar.SGDAdjustableFontUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SGDAdjustableFont;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48109EA11D0E8EF100A33504 /* Build configuration list for PBXProject "SGDAdjustableFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48109ED11D0E8EF200A33504 /* Debug */,
+				48109ED21D0E8EF200A33504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48109ED31D0E8EF200A33504 /* Build configuration list for PBXNativeTarget "SGDAdjustableFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48109ED41D0E8EF200A33504 /* Debug */,
+				48109ED51D0E8EF200A33504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48109ED61D0E8EF200A33504 /* Build configuration list for PBXNativeTarget "SGDAdjustableFontTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48109ED71D0E8EF200A33504 /* Debug */,
+				48109ED81D0E8EF200A33504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48109ED91D0E8EF200A33504 /* Build configuration list for PBXNativeTarget "SGDAdjustableFontUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48109EDA1D0E8EF200A33504 /* Debug */,
+				48109EDB1D0E8EF200A33504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48109E9E1D0E8EF100A33504 /* Project object */;
+}
